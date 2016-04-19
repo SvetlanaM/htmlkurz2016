@@ -212,7 +212,7 @@ li a img.img-circle {
 
 .carousel-caption1 {
   color: #fff;
-  padding: 80px;
+  margin-top: 75px;
 
 }
 
@@ -237,4 +237,8 @@ li a img.img-circle {
   .join2 {
     border-left: none;
 }
+}
+
+@media all and (max-width: 375px) {
+
 }
