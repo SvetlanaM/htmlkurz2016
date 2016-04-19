@@ -233,3 +233,9 @@ li a img.img-circle {
     margin-top: 50px;
 }
 }
+
+@media all and (max-width: 736px) {
+  .join2 {
+    border-left: none;
+}
+}
