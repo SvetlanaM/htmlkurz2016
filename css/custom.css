@@ -1,0 +1,222 @@
+body {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #798097;
+  line-height: 2.3rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  color: #455376;
+  margin-top: 6rem;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  margin-bottom: 6rem;
+  font-weight: 700;
+}
+
+h2::before {
+  content: '- ';
+}
+
+h2::after {
+  content: ' -';
+}
+
+h3 {
+  margin: 3rem 0;
+}
+
+p {
+  font-size: inherit;
+  display: block;
+}
+
+a {
+  color: #455376;
+  text-decoration: none;
+  transition: all 0.5s ease;
+
+}
+
+a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #c5308a;
+  text-decoration: none;
+}
+
+section {
+  height: auto;
+}
+
+section {
+  padding-bottom: 9rem;
+}
+
+
+.navbar-default {
+  background: #fff;
+  border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #455376;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar {
+
+    margin-bottom: 0px;
+
+  }
+
+  .carousel {
+    height: auto;
+  }
+
+  .carousel-caption {
+    bottom: 90px;
+    bottom: 87px;
+  }
+
+  .carousel-caption > h1 {
+    color: #fff;
+    text-shadow: none;
+    font-weight: bolder;
+  }
+
+  .join1, .join2 {
+    justify-content: center;
+align-items: center;
+display: flex;
+height: 200px;
+  }
+
+  .join1 {
+    background: #e51e41;
+  }
+
+  .join2 {
+    background: #c5308a;
+    border-left: 3px solid #fff;
+
+  }
+
+  #join,
+  #join a {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  #join a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+.interest-wrapper {
+  border: 1px solid #ccc;
+  padding: 40px 30px;
+  box-shadow: 1px 6px 10px #ced1d8;
+  border-radius: .2em;
+  height: auto;
+  overflow: hidden;
+}
+
+
+
+
+
+footer {
+  height: 60px;
+  padding: 1.56rem;
+}
+
+.fa {
+  font-size: 1.25em;
+}
+
+.fa-i {
+  font-size: 4em;
+  color: #455376;
+}
+
+#contact {
+  background: url('../img/contact.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#contact h2 {
+  color: #fff !important;
+}
+
+.form-wrapper {
+  background:rgba(51, 51, 51, 0.5);
+
+  padding: 40px;
+  border-radius: .2em;
+}
+
+.form-control:focus {
+    border-color: #c5308a;
+    outline: none;
+    -webkit-box-shadow:  transparent;
+    box-shadow: transparent;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #455376;
+    border-color: transparent;
+    border-radius: 0.2em;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
+.btn-primary:hover {
+  background-color: #a1236f !important;
+    border-color: transparent !important;
+}
+
+form div div:nth-child(4) {
+  color: #fff;
+  font-style:italic;
+  font-size: 0.75em;
+  line-height: 40px;
+}
+
+li a img.img-circle {
+  border: 2px solid #455376;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-top: -3px;
+}
+
+.mobile-image {
+  background: url('../img/slide1.jpg') no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+
+.carousel-caption1 {
+  color: #fff;
+  padding: 80px;
+
+}
+
+.mobile-p {
+  font-size: 18px;
+  font-weight: 700;
+}
