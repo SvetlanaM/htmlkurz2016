@@ -1,3 +1,6 @@
+/*****************
+General styles
+*****************/
 body {
   background: #fff;
   width: 100%;
@@ -8,6 +11,8 @@ body {
   color: #798097;
   line-height: 2.3rem;
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6  {
@@ -18,6 +23,7 @@ h1, h2, h3, h4, h5, h6  {
 h1 {
   text-transform: uppercase;
 }
+
 h2 {
   margin-bottom: 6rem;
   font-weight: 700;
@@ -44,7 +50,6 @@ a {
   color: #455376;
   text-decoration: none;
   transition: all 0.5s ease;
-
 }
 
 a:hover,
@@ -55,13 +60,12 @@ a:hover,
 
 section {
   height: auto;
-}
-
-section {
   padding-bottom: 9rem;
 }
 
-
+/**********************
+NAVIGATION MENU
+**********************/
 .navbar-default {
   background: #fff;
   border: none;
@@ -77,54 +81,67 @@ section {
 }
 
 .navbar {
+  margin-bottom: 0px;
+}
 
-    margin-bottom: 0px;
+li a img.img-circle {
+  border: 2px solid #455376;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: -3px;
+}
 
-  }
+/********************
+SLIDER
+********************/
+.carousel {
+  height: auto;
+}
 
-  .carousel {
-    height: auto;
-  }
+.carousel-caption {
+  bottom: 90px;
+  bottom: 87px;
+}
 
-  .carousel-caption {
-    bottom: 90px;
-    bottom: 87px;
-  }
+.carousel-caption > h1 {
+  color: #fff;
+  text-shadow: none;
+  font-weight: bolder;
+}
 
-  .carousel-caption > h1 {
-    color: #fff;
-    text-shadow: none;
-    font-weight: bolder;
-  }
+/********************
+JOIN SECTION
+*******************/
+.join1, .join2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 200px;
+}
 
-  .join1, .join2 {
-    justify-content: center;
-align-items: center;
-display: flex;
-height: 200px;
-  }
+.join1 {
+  background: #e51e41;
+}
 
-  .join1 {
-    background: #e51e41;
-  }
-
-  .join2 {
-    background: #c5308a;
-    border-left: 3px solid #fff;
-
-  }
+.join2 {
+  background: #c5308a;
+  border-left: 3px solid #fff;
+}
 
   #join,
   #join a {
-    color: #fff;
-    font-size: 1.8rem;
-  }
+  color: #fff;
+  font-size: 1.8rem;
+}
 
-  #join a {
-    font-weight: bold;
-    text-decoration: underline;
-  }
+#join a {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
+/*******************
+INTEREST SECTION
+*****************/
 .interest-wrapper {
   border: 1px solid #ccc;
   padding: 40px 30px;
@@ -134,10 +151,14 @@ height: 200px;
   overflow: hidden;
 }
 
+.fa-i {
+  font-size: 4em;
+  color: #455376;
+}
 
-
-
-
+/***************
+FOOTER
+***************/
 footer {
   height: 60px;
   padding: 1.56rem;
@@ -147,11 +168,9 @@ footer {
   font-size: 1.25em;
 }
 
-.fa-i {
-  font-size: 4em;
-  color: #455376;
-}
-
+/****************
+CONTACT SECTION
+*****************/
 #contact {
   background: url('../img/contact.jpg') no-repeat;
   background-size: cover;
@@ -164,29 +183,28 @@ footer {
 
 .form-wrapper {
   background:rgba(51, 51, 51, 0.5);
-
   padding: 40px;
   border-radius: .2em;
 }
 
 .form-control:focus {
-    border-color: #c5308a;
-    outline: none;
-    -webkit-box-shadow:  transparent;
-    box-shadow: transparent;
+  border-color: #c5308a;
+  outline: none;
+  -webkit-box-shadow:  transparent;
+  box-shadow: transparent;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #455376;
-    border-color: transparent;
-    border-radius: 0.2em;
+  color: #fff;
+  background-color: #455376;
+  border-color: transparent;
+  border-radius: 0.2em;
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
 .btn-primary:hover {
   background-color: #a1236f !important;
-    border-color: transparent !important;
+  border-color: transparent !important;
 }
 
 form div div:nth-child(4) {
@@ -196,13 +214,9 @@ form div div:nth-child(4) {
   line-height: 40px;
 }
 
-li a img.img-circle {
-  border: 2px solid #455376;
-    margin-right: 5px;
-    margin-left: auto;
-    margin-top: -3px;
-}
-
+/******************
+MOBILE IMAGE
+*******************/
 .mobile-image {
   background: url('../img/slide1.jpg') no-repeat;
   background-size: cover;
@@ -213,7 +227,6 @@ li a img.img-circle {
 .carousel-caption1 {
   color: #fff;
   margin-top: 75px;
-
 }
 
 .mobile-p {
@@ -230,15 +243,11 @@ li a img.img-circle {
   .interest-wrapper {
     min-height: 200px !important;
     margin-top: 50px;
-}
+  }
 }
 
 @media all and (max-width: 736px) {
   .join2 {
     border-left: none;
-}
-}
-
-@media all and (max-width: 375px) {
-
+  }
 }
