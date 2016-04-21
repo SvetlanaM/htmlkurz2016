@@ -4,198 +4,214 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Svetlana Margetová</title>
+
+    <!-- Bootstrap CSS files -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" type="text/css">
     <link rel="stylesheet" href="css/animate.css" type="text/css">
 
+    <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   </head>
+
   <body>
+    <!-- Start navigation menu -->
     <div class="navbar-wrapper">
-
-
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Your name</a>
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Sveťa Margetová</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="#myCarousel">O mne</a></li>
+              <li><a href="#join">Záujmy</a></li>
+              <li><a href="#news">Aktualita týždňa</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#contact">
+                <img src="img/user-photo.png" class="img-circle" width=30 height=30 />Napíšte mi
+                  </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="#myCarousel">O mne</a></li>
-            <li><a href="#join">Záujmy</a></li>
-            <li><a href="#news">Aktualita týždňa</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#contact"><img src="img/user-photo.png" class="img-circle" width=30 height=30 />Napíšte mi</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-</div>
-
-<div id="myCarousel" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-  </ol>
-
-  <div class="carousel-inner" role="listbox">
-    <div class="item">
-      <img class="first-slide" src="img/slide1.jpg" alt="Popis obrázku">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Vitajte na mojom webe!</h1>
-          <p>Som programátorka, ktorá má rada hady :)</p>
-        </div>
-      </div>
-    </div>
-    <div class="item active">
-      <img class="second-slide" src="img/slide2.jpg" alt="Popis obrázku">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Chceš vedieť lepšie HTML?</h1>
-          <p>Poď programovať s nami.</p>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
-
-
-<div class="container mobile-image hidden-lg hidden-md col-sm-12 col-xs-12">
-  <div class="carousel-caption1">
-    <p class="text-center mobile-p">Som programátorka, ktorá má rada hady :)</p>
+      </nav>
   </div>
-</div>
-<section id="#interests" class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h2 class="text-center">Čomu sa venujem</h2>
-    </div>
-  </div>
-  <div class="row text-center">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <div class="interest-wrapper">
-        <i class="fa fa-file-code-o fa-i" aria-hidden="true"></i>
-        <h3>Programovaniu v Pythone</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+  <!-- End naviagtion menu -->
+  <!-- Start slider -->
+  <div id="myCarousel" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item">
+        <img class="first-slide" src="img/slide1.jpg" alt="Popis obrázku">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Vitajte na mojom webe!</h1>
+            <p>Som programátorka, ktorá má rada hady :)</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <div class="interest-wrapper">
-        <i class="fa fa-paint-brush fa-i" aria-hidden="true"></i>
-        <h3>Web dizajnu</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <div class="interest-wrapper">
-        <i class="fa fa-wheelchair fa-i" aria-hidden="true"></i>
-        <h3>Behaniu</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+      <div class="item active">
+        <img class="second-slide" src="img/slide2.jpg" alt="Popis obrázku">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Chceš vedieť lepšie HTML?</h1>
+            <p>Poď programovať s nami.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
-
-<div id="join" class="container-fluid">
-  <div class="row text-center">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 join1 wow fadeInLeft">
-      <span class="join-info">Pod programovat s <br />
-        <a href="#" target="_blank">PyLadies</a>
-      </span>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 join2 wow fadeInRight">
-      <span class="join-info">Pod programovat s <br />
-        <a href="#" target="_blank">Czechitas</a>
-      </span>
+  <!-- End slider -->
+  <!-- Start mobile image -->
+  <div class="container mobile-image hidden-lg hidden-md col-sm-12 col-xs-12">
+    <div class="carousel-caption1">
+      <p class="text-center mobile-p">Som programátorka, ktorá má rada hady :)</p>
     </div>
   </div>
-</div>
-
-<section id="news" class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h2 class="text-center">Aktualita dňa</h2>
-      <div>
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod .
+  <!-- End mobile image -->
+  <!-- Interest section -->
+  <section id="#interests" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="text-center">Čomu sa venujem</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="interest-wrapper">
+          <i class="fa fa-file-code-o fa-i" aria-hidden="true"></i>
+          <h3>Programovaniu v Pythone</h3>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="interest-wrapper">
+          <i class="fa fa-paint-brush fa-i" aria-hidden="true"></i>
+          <h3>Web dizajnu</h3>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="interest-wrapper">
+          <i class="fa fa-wheelchair fa-i" aria-hidden="true"></i>
+          <h3>Behaniu</h3>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End interest section -->
+  <!-- Start join section -->
+  <div id="join" class="container-fluid">
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 join1 wow fadeInLeft">
+        <span class="join-info">Pod programovat s <br />
+          <a href="http://pyladies.cz/" target="_blank">PyLadies</a>
+        </span>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 join2 wow fadeInRight">
+        <span class="join-info">Pod programovat s <br />
+          <a href="http://www.czechitas.cz/" target="_blank">Czechitas</a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- End join section -->
+  <!-- Start news section -->
+  <section id="news" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="text-center">Aktualita týdňa</h2>
+        <div>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod .
         <br /><br />
         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod .
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-        <h2>Kontaktný formulár</h2>
+  </section>
+  <!-- End news section -->
+  <!-- Start contact section -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <h2>Kontaktný formulár</h2>
+        </div>
       </div>
-    </div>
-    <div class="form-section row">
-      <div class="form-wrapper col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-        <form method="POST" action="" name="contact-form" role="form">
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <div class="form-group">
-                  <input type="text" placeholder="Celé meno" id="name" class="form-control" name="name" required="">
+      <div class="form-section row">
+        <div class="form-wrapper col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+          <form method="POST" action="" name="contact-form" role="form">
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <div class="form-group">
+                  <input type="text" placeholder="Celé meno*" id="name" class="form-control" name="name" required="True">
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Email*" id="email" class="form-control" name="email" required="True">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Predmet" id="subject" class="form-control" name="subject" required="Fasle">
+                </div>
               </div>
-              <div class="form-group">
-                  <input type="email" placeholder="Email" id="email" class="form-control" name="email" required="">
+              <div class="col-md-8 col-lg-8">
+                <div class="form-group">
+                  <textarea placeholder="Správa*" rows="6" id="message" class="form-control" name="message" required="True"></textarea>
+                </div>
               </div>
-              <div class="form-group">
-                  <input type="text" placeholder="Predmet" id="subject" class="form-control" name="subject" required="">
+              <div class="col-md-4 col-lg-4 text-center contact-button">
+                <button class="btn-primary btn-contact btn-block" name="submit" type="submit">Odoslať</button>
+              </div>
+              <div class="col-md-8 col-lg-8 text-right">Polia označené hviezdičkou sú povinné.
               </div>
             </div>
-            <div class="col-md-8 col-lg-8">
-              <div class="form-group">
-                <textarea placeholder="Správa" rows="6" id="message" class="form-control" name="message" required=""></textarea>
-              </div>
-          </div>
-          <div class="col-md-4 col-lg-4 text-center contact-button">
-            <button class="btn-primary btn-contact btn-block" name="submit" type="submit">Odoslať</button>
-          </div>
-          <div class="col-md-8 col-lg-8 text-right">
-            Polia označené hviezdičkou sú povinné.
-          </div>
+          </form>
         </div>
-      </form>
+      </div>
     </div>
-  </div>
-  </div>
-</section>
-
-<footer class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  </section>
+  <!-- End contact section -->
+  <!-- Start footer section -->
+  <footer class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <ul class="list-inline pull-left">
-            <li>&copy; Svetlana Margetová | 2016 | </li>
-            <li><a href="mailto:svetlana@margetova.eu">svetlana@margetova.eu | </a></li>
-            <li><a href="https://www.facebook.com/sveta.margetova" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/Mandragora258" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://cz.linkedin.com/in/msvetlana" target="_blank"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-          </ul>
-          <p class="pull-right hidden-xs hidden-sm"><a href="#">Späť navrch</a></p>
+          <li>&copy; Svetlana Margetová - 2016</li>
+          <li><a href="mailto:svetlana@margetova.eu">svetlana@margetova.eu </a></li>
+          <li><a href="https://www.facebook.com/sveta.margetova" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/Mandragora258" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://cz.linkedin.com/in/msvetlana" target="_blank"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        </ul>
+        <p class="pull-right hidden-xs hidden-sm"><a href="#">Späť navrch</a>
+        </p>
+      </div>
     </div>
-  </div>
-</footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
-    </script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
+  </footer>
+  <!-- End footer -->
+  <!-- Core JS files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+  </script>
+  <script src="js/wow.min.js">
+  </script>
+  <script>
+    new WOW().init();
+  </script>
   </body>
  </html>
