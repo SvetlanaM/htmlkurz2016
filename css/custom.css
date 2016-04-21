@@ -151,11 +151,6 @@ INTEREST SECTION
   overflow: hidden;
 }
 
-.fa-i {
-  font-size: 4em;
-  color: #455376;
-}
-
 /***************
 FOOTER
 ***************/
@@ -166,6 +161,11 @@ footer {
 
 .fa {
   font-size: 1.25em;
+}
+
+.fa-i {
+  font-size: 4em !important;
+  color: #455376;
 }
 
 /****************
