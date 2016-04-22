@@ -100,7 +100,6 @@ SLIDER
 
 .carousel-caption {
   bottom: 90px;
-  bottom: 87px;
 }
 
 .carousel-caption > h1 {
@@ -156,7 +155,7 @@ FOOTER
 ***************/
 footer {
   height: 60px;
-  padding: 1.56rem;
+  padding: 1.50rem;
 }
 
 .fa {
