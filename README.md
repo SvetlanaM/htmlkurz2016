@@ -11,4 +11,5 @@ http://svetlanam.github.io/htmlkurz2016/
 - http://buri22.github.io/htmlkurz2016/ <br />
 - http://stud3nt1k.github.io/htmlkurz2016/ <br />
 - http://sarloska.github.io/htmlkurz2016/ <br />
-- http://luciezendl.github.io/HTMLkurz2016/ 
+- http://luciezendl.github.io/HTMLkurz2016/ <br />
+- http://www.sarloska.eu/
